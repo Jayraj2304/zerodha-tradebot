@@ -29,7 +29,7 @@ The **ZERODHA TRADEBOT** is an AI-powered trading assistant that bridges the gap
 
 ## 🎬 Demo
 
-📹 **Video Walkthrough**: *Available upon request*
+📹 **Video Walkthrough**: [Watch on YouTube](https://youtu.be/EtN6Q0jGC7I)
 
 The demo showcases:
 - Authentication flow with Zerodha

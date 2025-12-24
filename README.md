@@ -29,7 +29,7 @@ The **ZERODHA TRADEBOT** is an AI-powered trading assistant that bridges the gap
 
 ## 🎬 Demo
 
-📹 **Video Walkthrough**: [ZERODHA_TRADEBOT_DEMO.mp4](./ZERODHA_TRADEBOT_DEMO.mp4)
+📹 **Video Walkthrough**: *Available upon request*
 
 The demo showcases:
 - Authentication flow with Zerodha
@@ -41,46 +41,46 @@ The demo showcases:
 
 ## 🛠️ Technology Stack
 
-| Technology | Purpose |
-|------------|---------|
-| **Python 3.10+** | Core backend language |
+| Technology           | Purpose                     |
+| -------------------- | --------------------------- |
+| **Python 3.10+**     | Core backend language       |
 | **Kite Connect API** | Zerodha trading integration |
-| **MCP Server** | AI agent tool protocol |
-| **asyncio** | Asynchronous operations |
-| **dotenv** | Environment configuration |
+| **MCP Server**       | AI agent tool protocol      |
+| **asyncio**          | Asynchronous operations     |
+| **dotenv**           | Environment configuration   |
 
 ---
 
 ## 📦 Features & Available Tools
 
 ### Authentication Tools
-| Tool | Description |
-|------|-------------|
-| `get_login_url` | Generate Kite login URL for OAuth authentication |
-| `generate_access_token` | Generate access token from request token |
-| `set_access_token` | Manually set an existing access token |
+| Tool                    | Description                                      |
+| ----------------------- | ------------------------------------------------ |
+| `get_login_url`         | Generate Kite login URL for OAuth authentication |
+| `generate_access_token` | Generate access token from request token         |
+| `set_access_token`      | Manually set an existing access token            |
 
 ### Portfolio & Account Tools
-| Tool | Description |
-|------|-------------|
-| `get_profile` | Get user profile and account info |
-| `get_holdings` | Get all stock holdings with P&L summary |
+| Tool            | Description                                     |
+| --------------- | ----------------------------------------------- |
+| `get_profile`   | Get user profile and account info               |
+| `get_holdings`  | Get all stock holdings with P&L summary         |
 | `get_positions` | Get current day positions (intraday & delivery) |
-| `get_orders` | Get all orders placed today with status |
-| `get_margins` | Get available funds/margins |
+| `get_orders`    | Get all orders placed today with status         |
+| `get_margins`   | Get available funds/margins                     |
 
 ### Market Data Tools
-| Tool | Description |
-|------|-------------|
-| `get_ltp` | Get last traded price for multiple stocks |
-| `get_market_status` | Check if market is open/closed |
+| Tool                | Description                               |
+| ------------------- | ----------------------------------------- |
+| `get_ltp`           | Get last traded price for multiple stocks |
+| `get_market_status` | Check if market is open/closed            |
 
 ### Trading Tools
-| Tool | Description |
-|------|-------------|
-| `buy_stock` | Place a buy order (LIMIT) |
-| `sell_stock` | Place a sell order (LIMIT) |
-| `cancel_order` | Cancel a pending order |
+| Tool                | Description                      |
+| ------------------- | -------------------------------- |
+| `buy_stock`         | Place a buy order (LIMIT)        |
+| `sell_stock`        | Place a sell order (LIMIT)       |
+| `cancel_order`      | Cancel a pending order           |
 | `get_order_history` | Get complete history of an order |
 
 ---
@@ -160,10 +160,10 @@ To integrate with Claude Desktop, add this to your config file:
 
 ## ⏰ Market Hours Handling
 
-| Time Period | Order Type |
-|-------------|------------|
-| **9:15 AM - 3:30 PM IST** (Weekdays) | Regular Orders |
-| Outside Market Hours | AMO (After Market Orders) |
+| Time Period                          | Order Type                |
+| ------------------------------------ | ------------------------- |
+| **9:15 AM - 3:30 PM IST** (Weekdays) | Regular Orders            |
+| Outside Market Hours                 | AMO (After Market Orders) |
 
 The system automatically detects market status and places appropriate order types.
 
@@ -192,8 +192,6 @@ TRADING_BOT/
 ├── requirements.txt         # Python dependencies
 ├── .env.example            # Environment template
 ├── README.md               # Documentation
-├── VIDEO_SCRIPT.md         # Demo script
-└── ZERODHA_TRADEBOT_DEMO.mp4  # Demo video
 ```
 
 ---

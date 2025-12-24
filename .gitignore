@@ -44,3 +44,7 @@ Thumbs.db
 *.webm
 *.mov
 *.avi
+
+# Video Scripts (Internal use only)
+*_SCRIPT.md
+video_script.md
